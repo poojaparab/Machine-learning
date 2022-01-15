@@ -8,5 +8,3 @@ Assume that your team has asked you to put a Model in production. You have to gi
 6.Any other things that can you do to better monitor your application in production ?
 
 
-https://towardsdatascience.com/serving-a-machine-learning-model-via-rest-api-5a4b38c02e90
-docker build -t registry.heroku.com/tranquil-plains-76877/web .
