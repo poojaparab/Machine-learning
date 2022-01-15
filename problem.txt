@@ -1,0 +1,12 @@
+Assume that your team has asked you to put a Model in production. You have to give a working implementation of the following:
+
+1.Implement a Regression Model on this public dataset. The regression performance for now is not a concern. A basic model would do, to start with.
+2.Put this Model behind an API. The API would get inputs as required by the Model and the output would be the predicted value. You can use any open-source web/api framework of your choice, preferably from the Python ecosystem.
+3.In the near future, there can be multiple versions of this Model running in production simultaneously so as to choose the better one based on real-traffic. Ensure that you provide this capability in the API ?
+4.Ensure that you are logging things, making it possible to evaluate production performance of the Model.
+5.The application is expected to serve heavy traffic. How would you ensure that it is able to run well ?
+6.Any other things that can you do to better monitor your application in production ?
+
+
+https://towardsdatascience.com/serving-a-machine-learning-model-via-rest-api-5a4b38c02e90
+docker build -t registry.heroku.com/tranquil-plains-76877/web .
